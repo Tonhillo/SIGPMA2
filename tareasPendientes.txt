@@ -1,0 +1,24 @@
+1-EstanqueAlimentación debe de llevar peso y porcecntaje.-EMMANUEL-
+(LISTO)*2-Combinar en la vista de fisicoQuimicos a estanque fisicoQuimicos para que guarde en ambas tablas.-EMMANUEL-
+3-cambiar nombre de etiqueta del menu estanque_alimentacions a estanque_alimentacion
+4-Crear combo box de id_alimento y id_estanque y llenarlos de manera dinámica al iniciar la app.-EMMANUEL-
+5-Debe mostrar un calendario de fechas para los atributos de tipo date(estanque_alimentacion)
+6-Debe mostrar un formato para la hora para los atributos de tipo time(estanque_alimentacion)
+7-Agregar el codigo_especie a la tabla especie, al html y al modelo (¿dinámico o estático? )
+8-(Listo)En el campo imagen_url de especies la persona debe acceder a los archivos del sistema y seleccionar una imagen, esa imagen debe ser copiada a una carpeta del servidor y la url de ese archivo debe enviarse a la BD-EMMANUEL-
+9-En todos los campos numericos o decimales, el valor no puede ser negativo (¿La temperatura puede ser negativo?).
+10-Peso debe ser controlado para que solamente se ingrese decimales (estanque_alimentacion)
+(LISTO)11-Crear un combo box en lugar de ID especie para llenarse con datos de texto y no numericos(estanque_familia).
+(LISTO)12-Crear un combo box en lugar de ID estanque para llenarse con los numeros o nombres de los estanques(estanque_familia).
+(LISTO)13-No mostrar la hora en Fecha de Inicio de la Familia, ya que sale en ceros(estanque_familia).
+(LISTO)14-Validar que en los campos de texto de "numero de machos, hembras e indefinidos" solo se ingresen numeros y no letras(estanque_familia).
+15-Crear un combo box para el Estado (opcional).
+16-Hacer que todos los tipos de observaciones apunten a la tabla observacions
+17-Poner tildes a todas las etiquetas que lo requieran.
+(Listo)18-Hacer que las imagenes se vean en vez de la url(Especies)
+(Listo)19-Al editar la imagen de una especie se debe borrar la anterior, al igual que al eliminarlo(especies)
+(Listo)20-Mejorar la forma en la que se escoje la hora fisicoQuimicos.
+21: Preguntas al parque:
+-Rangos y tipos(int o decimal) de entrada de las variables fisicoQuimicas
+-Que es el porcentaje en alimentación Porcentaje
+22-Controlar la cantidad de caracteres ingresados en las descripciones de la aplicación.

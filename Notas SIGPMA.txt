@@ -1,0 +1,113 @@
+Crear una vista de escogencia de recinto.*
+
+Estanque desove
+-> Cambiar las etiquetas, poner desove con V
+-> El boton del add new y los botones de save y cancel deben de ir en espa�ol
+-> Los mensajes de notificaciones deben de ir en espa�ol
+-> cambiar el mensaje de eliminar por un modal
+-> La etiqueta de Action debe de ir en espa�ol
+-> idEstanque y iddesove tienen que ser un bombo box porque de lo contrario se cae si no encuentra lo que busca
+
+
+Estanque Especie
+-> Se cae al dar en el boton guardar sin ingresar datos, debe mostrar un mensaje de que los
+	campos son requiridos.(LISTO)
+-> Se debe arreglar que en lugar de especie, aparezca el nombre y no el ID, y en estanque
+	aparezca el nombre del estanque con el recinto, en vez del ID, ademas que salga.LISTO
+	el nombre del alimento y el tipo en vez del ID. Esto para la vista del index y la del show.(*)
+-> El mensaje de eliminar de estanque_especie esta bien, pero si fuera con un modal, seria mejor.(listo)
+-> El boton BACK de la vista show, debe ser cambiado a espa�ol, junto con las etiquetas
+	de CREATED AT y UPDATED AT.(LIsto)
+
+
+Recintos
+-> El boton de ADD NEW debe cambiarse a espa�ol.
+-> Botones de SAVE y CANCEL de la vista para agregar, se deben cambiar a espa�ol.
+-> El mensaje al guardar un registro, se debe cambiar a espa�ol.
+-> El boton BACK de la vista show, debe estar en espa�ol, junto con las etiquetas
+	de CREATED AT y UPDATED AT.
+-> Los botones de la vista modificar deben estar en espa�ol.
+-> El mensaje al modificar, debe estar en espa�ol.
+-> Arreglar la integridad referencial, al eliminar un recinto.
+
+
+Estanques
+-> En la vista index, mejorar que aparezca el nombre del recinto, en vez del ID.
+-> El boton de ADD NEW debe aparecer en espa�ol, y el encabezado de ACTION tambien.
+-> Los botones al  agregar deben aparecer en espa�ol.
+-> En la vista show, debe aparecer el nombre del recinto en vez del ID, y el boton BACK
+	debe aparecer en espa�ol, junto con las etiquetas de CREATED AT y UPDATED AT.
+-> El mensaje al agregar una nueva especie debe aparecer en espa�ol.
+-> Los botones de la vista de modificar deben aparecer en espa�ol, asi como el mensaje al
+	modificar un estanque.
+-> Cambiar el mensaje al eliminar, por un modal.
+
+
+Desoves
+-> El boton de ADD NEW debe aparecer en espa�ol, y el encabezado de ACTION tambien, de la vista index.
+-> Los botones al  agregar deben aparecer en espa�ol.
+-> El mensaje al agregar un nuevo desove debe aparecer en espa�ol.
+-> Las etiquetas CREATED AT y UPDATED AT deben aparecer en espa�ol, junto con el boton BACK, esto
+	en la vista show.
+-> Los botones de la vista de modificar deben aparecer en espa�ol, asi como el mensaje al
+	modificar un desove.
+-> Deben cambiar la palabra DESOBE, por DESOVE.
+-> Cambiar el mensaje al eliminar, por un modal.
+
+
+Alimentos
+-> El boton del add new y los botones de save y cancel deben de ir en espa�ol
+-> Los mensajes de notificaciones deben de ir en espa�ol
+-> cambiar el mensaje de eliminar por un modal
+-> La etiqueta de Action debe de ir en espa�ol
+
+
+Fisico-Quimicos
+-> El boton de ADD NEW debe aparecer en espa�ol, y el encabezado de ACTION tambien, de la vista index.
+-> Los botones al  agregar deben aparecer en espa�ol.
+-> El mensaje al agregar un nuevo fisico-quimico debe aparecer en espa�ol.
+-> La temperatura se debe especificar si es en grados Celsius o Farenheit (tentativo).
+-> Las etiquetas CREATED AT y UPDATED AT deben aparecer en espa�ol, junto con el boton BACK, esto
+	en la vista show.
+-> Los botones de la vista de modificar deben aparecer en espa�ol, asi como el mensaje al
+	modificar un fisico-quimico.
+-> Cambiar el mensaje al eliminar, por un modal.
+-> Modificar que al NO ingresar datos y dar clic al boton guardar, muestre un mensaje de 'campos requeridos',
+	y no que se caiga.
+
+
+Estanque-Alimentacion
+-> El boton de ADD NEW debe aparecer en espa�ol, y el encabezado de ACTION tambien, de la vista index.
+-> Los botones al  agregar deben aparecer en espa�ol.
+-> En vez de solicitar escribir el ID del estanque, debe aparecer un combobox con los numeros
+	de los estanques de la Base de Datos, asi como para el alimento.
+-> El peso deberia de ingresarse manualmente, en vez de un slider, quiza podria darse el caso de que
+	un pez pese mas de 100 kilos.
+-> El mensaje al agregar un nuevo estanque-alimentacion debe aparecer en espa�ol.
+-> En la vista index, es mejor mostrar el numero del estanque en vez del ID, lo mismo para el alimento.
+-> Si se pudiera quitar la hora que aparece en ceros y dejar la fecha unicamente, mucho mejor, esto
+	para la tabla en la columna 'Fecha Alimentacion'.
+-> Lo anterior tambien se debe aplicar en la vista show, ademas de cambiar las etiquetas
+	CREATED AT y UPDATED AT, deben aparecer en espa�ol, junto con el boton BACK.
+-> Los botones de la vista de modificar deben aparecer en espa�ol, asi como el mensaje al
+	modificar un estanque-alimentacion.
+-> Cambiar el mensaje al eliminar, por un modal.
+-> Cambiar el titulo de la vista index, ya que aparece con una 's' al final.
+
+
+Especies
+-> El boton de ADD NEW debe aparecer en espa�ol, y el encabezado de ACTION tambien, de la vista index.
+-> Los botones al  agregar deben aparecer en espa�ol.
+-> Mostrar un contador de caracteres en las descripciones, ya que no se permite ingresar mas de
+	191 caracteres (tentativo).
+-> El mensaje al agregar una nueva especie debe aparecer en espa�ol.
+-> Las etiquetas CREATED AT y UPDATED AT deben aparecer en espa�ol, junto con el boton BACK, esto
+	en la vista show.
+-> Los botones de la vista de modificar deben aparecer en espa�ol, asi como el mensaje al
+	modificar una especie.
+
+
+Observacion-Especies
+-> Falta agregar la 'observacion' para poder agregarla.
+-> El boton de ADD NEW debe aparecer en espa�ol, y el encabezado de ACTION tambien, de la vista index.
+-> Los botones al  agregar deben aparecer en espa�ol.
