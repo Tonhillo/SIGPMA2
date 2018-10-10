@@ -68,11 +68,17 @@ class estanqueController extends AppBaseController
      */
     public function store(CreateestanqueRequest $request)
     {
-        $input = $request->all();
-
+    	$input = $request->all();
+        $volumen = $request->volumen;
+        if($volumen <= 0){
+            Flash::error('El volumen del estanque no puede ser negativo');
+            return redirect(route('estanques.index'));
+        }
+        else{
         $estanque = $this->estanqueRepository->create($input);
-
         Flash::success('El estanque se ha guardado correctamente.');
+        return redirect(route('estanques.index'));
+        }
 
         return redirect(route('estanques.index'));
     }
