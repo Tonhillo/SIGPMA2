@@ -1,8 +1,4 @@
-<!-- Id Field -->
-<div class="form-group">
-    {!! Form::label('id', 'Id:') !!}
-    <p>{!! $recinto->id !!}</p>
-</div>
+
 
 <!-- Nombre Field -->
 <div class="form-group">
