@@ -76,6 +76,13 @@ class graficos_controller extends AppBaseController
         $fecha_final = $input['fechaFinal'];
         $id_estanque = $input['idEstanque'];
 
+        if ($fecha_inicial>$fecha_final)
+        {
+            Flash::error('La fecha inicial no puede ser mayor a la fecha final');
+
+            return redirect(route('estanques.index'));
+        }
+
         // $diferencia = (strtotime($fecha_inicial)-strtotime($fecha_final))/86400;
         // $diferencia = abs($diferencia);
         // $diferencia = floor($diferencia);
