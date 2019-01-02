@@ -43,7 +43,7 @@ class RegisterController extends Controller
 
     public function showRegistrationForm()
    {
-       $this->guard();
+      $this->guard();
       $recintos = recinto::all();
       $roles =  Role::all();
       return view('auth.register',compact('recintos','roles'));

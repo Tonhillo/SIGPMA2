@@ -116,7 +116,7 @@
                           <li class=""><a href="#graTwo" data-toggle="tab" aria-expanded="false">Defunciones</a></li>
                         @endif
 
-                        {{-- <li class=""><a href="#alimentacion" data-toggle="tab" aria-expanded="false">Alimentación</a></li> --}}
+                        <li class=""><a href="#alimentacion" data-toggle="tab" aria-expanded="false">Alimentación</a></li>
                         <li class=""><a href="#observaciones" data-toggle="tab" aria-expanded="false">Observaciones</a></li>
                     </ul>
 
@@ -270,7 +270,6 @@
 
                                                 <div class="box-tools pull-right">
                                                     <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus" title='Minimizar'></i>
-                                                    </button>
                                                     </button>
                                                     <div class="btn-group">
                                                         <button type="button" class="btn btn-info no-click btn-social"><i class="fa fa-download"></i>Descarga</button>

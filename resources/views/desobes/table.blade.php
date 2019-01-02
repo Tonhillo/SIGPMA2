@@ -1,18 +1,20 @@
 <table class="table table-responsive" id="desobes-table">
     <thead>
         <tr>
+           <th>Num Estanque</th>
             <th>Num Huevos Total</th>
-        <th>Num Huevos No Viables</th>
-        <th>Num Huevos Viables</th>
-        <th>Porcentaje Viabilidad</th>
-        <th>Diametro Huevo</th>
-        <th>Diametro Gota</th>
-            <th colspan="3">Action</th>
+            <th>Num Huevos No Viables</th>
+            <th>Num Huevos Viables</th>
+            <th>Porcentaje Viabilidad</th>
+            <th>Diametro Huevo</th>
+            <th>Diametro Gota</th>
+            <th colspan="3">Acciones</th>
         </tr>
     </thead>
     <tbody>
     @foreach($desobes as $desobe)
         <tr>
+            <td>{!! $desobe->id !!}</td>
             <td>{!! $desobe->num_huevos_total !!}</td>
             <td>{!! $desobe->num_huevos_no_viables !!}</td>
             <td>{!! $desobe->num_huevos_viables !!}</td>

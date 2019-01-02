@@ -5,7 +5,7 @@
     {{--<div class="row">--}}
     @desktop
     <div id="wrapper" style="width: 100%; height: 100%; overflow: auto; -webkit-overflow-scrolling: touch;">
-       Commit test
+       
         <iframe  src="https://www.meteoblue.com/en/weather/widget/three/puntarenas_costa-rica_3622228?geoloc=fixed&nocurrent=0&noforecast=0&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=bright"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 100%;height: 598px; overflow: auto;" class="embed-responsive-item"></iframe>
     </div>
     @elsedesktop

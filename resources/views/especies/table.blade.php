@@ -2,9 +2,9 @@
     <table class="table" id="especies-table">
         <thead>
             <tr>
-                <th>Nombre Comun</th>
-            <th>Nombre Cientifico</th>
             <th>Familia</th>
+            <th>Nombre Cientifico</th>
+            <th>Nombre Comun</th>
             <th>Nombre Comun En</th>
             <th>Descripcion Es</th>
             <th>Descripcion En</th>
@@ -15,9 +15,9 @@
         <tbody>
         @foreach($especies as $especie)
             <tr>
-                <td>{!! $especie->nombre_comun !!}</td>
-                <td>{!! $especie->nombre_cientifico !!}</td>
                 <td>{!! $especie->familia !!}</td>
+                <td>{!! $especie->nombre_cientifico !!}</td>
+                <td>{!! $especie->nombre_comun !!}</td>
                 <td>{!! $especie->nombre_comun_en !!}</td>
                 <td>{!! $especie->descripcion_es !!}</td>
                 <td>{!! $especie->descripcion_en !!}</td>
