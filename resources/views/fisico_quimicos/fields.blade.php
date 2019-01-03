@@ -35,7 +35,7 @@
     <div class="form-group col-sm-6">
         {!! Form::label('pH', 'pH:') !!}
 
-        <input type="number" step="any" min="0"  name="pH" class="form-control"/>
+        <input type="number" step="any" min="0" max="14"  name="pH" class="form-control"/>
     </div>
     <div class="form-group col-sm-6">
         {!! Form::label('hora', 'Hora de la medición:') !!}

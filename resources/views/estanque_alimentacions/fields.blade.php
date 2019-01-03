@@ -37,7 +37,7 @@
 
 <!-- Peso Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('peso', 'Peso:') !!}
+    {!! Form::label('peso', 'Peso en kg:') !!}
     {!! Form::number('peso', null, ['class' => 'form-control', 'min' => '0']) !!}
 </div>
 </div>

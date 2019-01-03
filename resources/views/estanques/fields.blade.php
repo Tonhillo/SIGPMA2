@@ -11,13 +11,13 @@
 
 <!-- Volumen Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('volumen', 'Volumen:') !!}
+    {!! Form::label('volumen', 'Volumen en Litros:') !!}
     {!! Form::number('volumen', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Tipo Agua Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('tipo_agua', 'Tipo Agua:') !!}
+    {!! Form::label('tipo_agua', 'Tipo Agua (Salada o Dulce):') !!}
     {!! Form::text('tipo_agua', null, ['class' => 'form-control']) !!}
 </div>
 

@@ -4,7 +4,7 @@
 
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     {!! Form::label('id_estanque', 'Estanque:') !!}
-    <input type="number" step="any"  name="id_estanque" value="{{$id_estanque}}" class="form-control" readonly/>
+    <input type="number" step="any"  name="id_estanque" value="{{$idEstanque}}" class="form-control" readonly/>
 </div>
 <!-- Fecha  -->
 <div class="form-group col-sm-6">
